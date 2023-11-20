@@ -18,7 +18,7 @@
 @textAlign: left;
 @background: @inputBackground;
 @borderWidth: 1px;
-@border: @borderWidth solid @borderColor;
+@border: @borderWidth solid #414868;
 @boxShadow: none;
 
 @borderRadius: @defaultBorderRadius;
@@ -76,7 +76,7 @@
 /* Focus */
 @focusBorderColor: @focusedFormBorderColor;
 @focusBackground: @background;
-@focusColor: @hoveredTextColor;
+@focusColor: #c0caf5;
 @focusBoxShadow: none;
 
 /* Error */
@@ -98,4 +98,3 @@
 /* Inverted */
 @transparentInvertedPlaceholderColor: @invertedUnselectedTextColor;
 @transparentInvertedColor: @white;
-

@@ -16,7 +16,7 @@
   background @defaultDuration @defaultEasing,
   color @defaultDuration @defaultEasing
 ;
-@background: @white;
+@background: #14141b;
 @color: @textColor;
 @borderWidth: 1px;
 @border: @borderWidth solid @borderColor;
@@ -40,7 +40,7 @@
 /* Table Header */
 @headerBorder: 1px solid @internalBorderColor;
 @headerDivider: none;
-@headerBackground: @offWhite;
+@headerBackground: #1e202e;
 @headerAlign: inherit;
 @headerVerticalAlign: inherit;
 @headerColor: @textColor;

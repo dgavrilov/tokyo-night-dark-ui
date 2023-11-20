@@ -128,8 +128,8 @@
 /* Selection List States */
 @selectionListBackground: transparent;
 @selectionListColor: @unselectedTextColor;
-@selectionListHoverBackground: @subtleTransparentBlack;
-@selectionListHoverColor: @hoveredTextColor;
+@selectionListHoverBackground: #1e202e;
+@selectionListHoverColor: #c0caf5;
 @selectionListDownBackground: @transparentBlack;
 @selectionListDownColor: @pressedTextColor;
 @selectionListActiveBackground: @transparentBlack;
@@ -221,4 +221,3 @@
 @veryRelaxedChildItemVerticalPadding: @relative4px;
 @veryRelaxedHeaderMargin: 0.5rem;
 @veryRelaxedHorizontalPadding: 1.5rem;
-

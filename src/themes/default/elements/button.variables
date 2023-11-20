@@ -9,7 +9,7 @@
 /* Button */
 @verticalMargin: 0em;
 @horizontalMargin: 0.25em;
-@backgroundColor: darken(@white, 4);
+@backgroundColor: #14141b;
 @backgroundImage: none;
 @background: @backgroundColor @backgroundImage;
 @lineHeight: 1em;
@@ -23,7 +23,7 @@
 @tapColor: transparent;
 @fontFamily: @pageFont;
 @fontWeight: @bold;
-@textColor: #DDDDDD;
+@textColor: #c0caf5;
 @textShadow: none;
 @invertedTextShadow: @textShadow;
 @borderRadius: @defaultBorderRadius;
@@ -84,17 +84,17 @@
 --------------------*/
 
 /* Hovered */
-@hoverBackgroundColor: darken(@white, 2);
+@hoverBackgroundColor: darken(@backgroundColor, 2);
 @hoverBackgroundImage: @backgroundImage;
 @hoverBoxShadow: @boxShadow;
-@hoverColor: @hoveredTextColor;
+@hoverColor: #a9b1d6;
 @iconHoverOpacity: 0.85;
 
 /* Focused */
 @focusBackgroundColor: @hoverBackgroundColor;
 @focusBackgroundImage: '';
 @focusBoxShadow: '';
-@focusColor: @hoveredTextColor;
+@focusColor: @textColor;
 @iconFocusOpacity: 0.85;
 
 /* Disabled */
@@ -102,17 +102,17 @@
 @disabledBoxShadow: none;
 
 /* Pressed Down */
-@downBackgroundColor: #BABBBC;
+@downBackgroundColor: lighten(@backgroundColor, 1);
 @downBackgroundImage: '';
 @downPressedShadow: none;
 @downBoxShadow:
   @borderBoxShadow,
   @downPressedShadow
 ;
-@downColor: @pressedTextColor;
+@downColor: @textColor;
 
 /* Active */
-@activeBackgroundColor: #C0C1C2;
+@activeBackgroundColor: @backgroundColor;
 @activeBackgroundImage: none;
 @activeColor: @selectedTextColor;
 @activeBoxShadow: @borderBoxShadow;

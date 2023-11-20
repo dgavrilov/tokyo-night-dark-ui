@@ -199,7 +199,7 @@
 /* Vertical */
 @verticalBoxShadow: @boxShadow;
 @verticalPointerWidth: 2px;
-@verticalBackground: fade(@white, 70%);
+@verticalBackground: #14141b;
 @verticalItemBackground: none;
 @verticalDividerBackground: @dividerBackground;
 
@@ -323,7 +323,7 @@
 @tabularFluidOffset: 1px;
 @tabularFluidWidth: calc(100% + (@tabularFluidOffset * 2));
 
-@tabularActiveBackground: none @white;
+@tabularActiveBackground: none #14141b;
 @tabularActiveColor: @selectedTextColor;
 @tabularActiveBoxShadow: none;
 @tabularActiveWeight: @bold;

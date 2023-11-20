@@ -75,15 +75,15 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : @white;
+@inputBackground        : #14141b;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
 
 /* Input Text Color */
 @inputColor: @textColor;
-@inputPlaceholderColor: darken(@textColor, 40);
-@inputPlaceholderFocusColor: darken(@textColor, 40);
+@inputPlaceholderColor: #747ca1;
+@inputPlaceholderFocusColor: #747ca1;
 
 /* Line Height Default For Inputs in Browser (Descenders are 17px at 14px base em) */
 @inputLineHeight: unit((17 / 14), em);
@@ -93,10 +93,10 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: /*#414868*/ #c0caf5;
 
 /* Used on dropdowns, other larger blocks */
-@focusedFormMutedBorderColor: #96C8DA;
+@focusedFormMutedBorderColor: #c0caf5;
 
 /*-------------------
         Sizes
@@ -121,11 +121,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #2E3235;
+@pageBackground      : #14141b;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : #DDDDDD;
+@textColor           : #9aa5ce;
 
 /*-------------------
       Paragraph
@@ -138,7 +138,7 @@
        Links
 --------------------*/
 
-@linkColor           : @primaryColor;
+@linkColor           : #7aa2f7;
 @linkUnderline       : none;
 @linkHoverColor      : lighten(saturate(@linkColor, 20), 15, relative);
 @linkHoverUnderline  : @linkUnderline;
@@ -441,7 +441,7 @@
 
 @darkTextColor               : rgba(255, 255, 255, 0.95);
 @mutedTextColor              : rgba(255, 255, 255, 0.6);
-@lightTextColor              : rgba(255, 255, 255, 0.50);
+@lightTextColor              : #9aa5ce;
 
 @unselectedTextColor         : rgba(255, 255, 255, 0.4);
 @hoveredTextColor            : rgba(255, 255, 255, 0.8);

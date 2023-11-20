@@ -11,8 +11,8 @@
 @labelDistance: 1.85714em; /* 26px @ 14/em */
 
 /* Checkbox */
-@checkboxBackground: rgba(0, 0, 0, 0.2);
-@checkboxBorder: 1px solid @solidBorderColor;
+@checkboxBackground: #14141b;
+@checkboxBorder: 1px solid #414868;
 @checkboxBorderRadius: @3px;
 @checkboxTransition:
   border @defaultDuration @defaultEasing,
@@ -37,32 +37,32 @@
 --------------------*/
 
 /* Hover */
-@checkboxHoverBackground: @checkboxBackground;
-@checkboxHoverBorderColor: @selectedBorderColor;
-@labelHoverColor: @hoveredTextColor;
+@checkboxHoverBackground: #14141b;
+@checkboxHoverBorderColor: #c0caf5;
+@labelHoverColor: #c0caf5;
 
 /* Pressed */
-@checkboxPressedBackground: @offWhite;
-@checkboxPressedBorderColor: @selectedBorderColor;
+@checkboxPressedBackground: #14141b;
+@checkboxPressedBorderColor: #c0caf5;
 @checkboxPressedColor: @selectedTextColor;
-@labelPressedColor: @selectedTextColor;
+@labelPressedColor: #c0caf5;
 
 /* Focus */
-@checkboxFocusBackground: @white;
-@checkboxFocusBorderColor: @focusedFormMutedBorderColor;
+@checkboxFocusBackground: #14141b;
+@checkboxFocusBorderColor: #c0caf5;
 @checkboxFocusCheckColor: @selectedTextColor;
-@labelFocusColor: @selectedTextColor;
+@labelFocusColor: #c0caf5;
 
 /* Active */
 @labelActiveColor: @selectedTextColor;
-@checkboxActiveBackground: rgba(0, 0, 0, 0.2);
-@checkboxActiveBorderColor: @selectedBorderColor;
-@checkboxActiveCheckColor: @selectedTextColor;
+@checkboxActiveBackground: #14141b;
+@checkboxActiveBorderColor: #c0caf5;
+@checkboxActiveCheckColor: #c0caf5;
 @checkboxActiveCheckOpacity: 1;
 
 /* Active Focus */
-@checkboxActiveFocusBackground: @white;
-@checkboxActiveFocusBorderColor: @checkboxFocusBorderColor;
+@checkboxActiveFocusBackground: #14141b;
+@checkboxActiveFocusBorderColor: #c0caf5;
 @checkboxActiveFocusCheckColor: @selectedTextColor;
 
 /* Indeterminate */
