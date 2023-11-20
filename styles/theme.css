@@ -1,1 +1,42 @@
+:root {
+    --button-background: #3b3e52;
+    --button-text-color: #ffffff;
+    --button-border: #3b3e52;
+    --primary-button-background-color: #3d59a1dd;
+    --primary-button-text-color: #ffffff;
 
+    --preferences-sidebar-background: #13131a;
+    --preferences-view-background: #1A1B25;
+    --preferences-sidebar-item-active-background: #181922;
+
+    --input-background: #14141b;
+
+    --header-text-color: #6081b8;
+    --muted-text-color: #70728d;
+
+    --sidebar-background: #16161E;
+    --note-list-bar-background: #1A1B25;
+    --segment-background: #13131a;
+    --secondary-segment-background: #13131a;
+    --input-color: #AAB0D4;
+
+    --table-background: #1A1B25;
+    --primary-color: #6081b8;
+    --link-color: #5A77AA;
+    --link-hover-color: #6ABBE6;
+    --sidebar-menu-section-color: #70728d;
+    --sidebar-menu-active-item-color: #c0caf5;
+    --sidebar-menu-item-inactive-background: #1A1B25;
+    --sidebar-menu-item-active-background: #1A1B25;
+    --tabular-menu-active-background: #1A1B25;
+    --grouped-segment-hover-background: #1A1B25;
+    --sidebar-sync-status-view-background: #16161E;
+
+    --editor-background: #16161E;
+    --metadata-section-background-color: #1a1b26;
+    --text-color: #AAB0D4;
+
+    --note-list-view-item-selected-background: #16161E;
+    --note-list-view-item-separator-border: #6081b8;
+    --dropdown-default-text-color: #70728d;
+}

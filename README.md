@@ -1,9 +1,22 @@
-# Default Dark UI Theme for Inkdrop
+# Tokyo Night Dark UI theme for Inkdrop
 
-> [!NOTE]
-> Do not fork this repository to create your own theme. Please read the documentation linked below.
+## Screenshot
 
-The default dark UI theme for Inkdrop.
+![screenshot](https://raw.githubusercontent.com/dgavrilov/tokyo-night-dark-ui/master/screenshot.png)
 
-Read [the documentation](https://developers.inkdrop.app/guides/create-a-theme) for detailed instructions.
+## Installation
 
+```sh
+$ ipm install tokyo-night-dark-ui
+
+# Additional
+$ ipm install tokyo-night-syntax
+```
+
+## Related
+
+* [dgavrilov/tokyo-night-syntax](https://github.com/dgavrilov/tokyo-night-syntax)
+
+## License
+
+This project is licensed under [MIT](LICENSE) license.
