@@ -12,10 +12,7 @@
     "inkdrop",
     "markdown"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dgavrilov/tokyo-night-dark-ui.git"
-  },
+  "repository": "https://github.com/dgavrilov/tokyo-night-dark-ui",
   "author": "Dmitry Gavrilov <dmitry@gavrilov.me>",
   "license": "MIT",
   "devDependencies": {
