@@ -3,7 +3,7 @@
  * https://github.com/fomantic/Fomantic-UI
  * http://fomantic-ui.com/
  *
- * Copyright 2023 Contributors
+ * Copyright 2024 Contributors
  * Released under the MIT license
  * http://opensource.org/licenses/MIT
  *
@@ -867,7 +867,7 @@ input::selection {
   --light-black: #545454;
   /*---   Neutrals  ---*/
   --full-black: #FFFFFF;
-  --off-white: #34393D;
+  --off-white: #14141b;
   --dark-white: #4B5257;
   --mid-white: #666E74;
   --white: #2E3235;
@@ -1324,7 +1324,7 @@ input::selection {
   --grey-hover: #838383;
   /*---  Light Tones  ---*/
   --white-hover: #222527;
-  --off-white-hover: #282c2f;
+  --off-white-hover: #09090c;
   --dark-white-hover: #3f4549;
   /*-------------------
           Focus
@@ -1374,7 +1374,7 @@ input::selection {
   --grey-focus: #8a8a8a;
   /*---  Light Tones  ---*/
   --white-focus: #1b1d1f;
-  --off-white-focus: #212427;
+  --off-white-focus: #030304;
   --dark-white-focus: #383d41;
   /*-------------------
       Down (:active)
@@ -1424,7 +1424,7 @@ input::selection {
   --grey-down: #909090;
   /*---  Light Tones  ---*/
   --white-down: #16181a;
-  --off-white-down: #1d1f21;
+  --off-white-down: #000000;
   --dark-white-down: #33383c;
   /*-------------------
           Active
@@ -1474,7 +1474,7 @@ input::selection {
   --grey-active: #696969;
   /*---  Light Tones  ---*/
   --white-active: #222527;
-  --off-white-active: #282c2f;
+  --off-white-active: #09090c;
   --dark-white-active: #3f4549;
   /*-------------------
         Side Bar
@@ -2334,7 +2334,7 @@ input::selection {
 
 .ui.basic.buttons .button:active,
 .ui.basic.button:active {
-  background: #34393D !important;
+  background: #14141b !important;
   color: rgba(255, 255, 255, 0.9) !important;
   box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.15) inset, 0px 1px 4px 0px rgba(24, 26, 28, 0.45) inset;
 }
@@ -2370,7 +2370,7 @@ input::selection {
 .ui.basic.inverted.buttons .button,
 .ui.basic.inverted.button {
   background-color: transparent !important;
-  color: #34393D !important;
+  color: #14141b !important;
   box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.5) inset !important;
 }
 
@@ -18676,7 +18676,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.segment {
   position: relative;
-  background: #2E3235;
+  background: #14141b;
   box-shadow: 0px 1px 2px 0 rgba(24, 26, 28, 0.45);
   margin: 1rem 0em;
   padding: 1em 1em;
@@ -18785,7 +18785,7 @@ ol.ui.horizontal.list li:before,
   overflow: visible;
   padding: 1em 1em;
   min-height: 18rem;
-  background: #34393D;
+  background: #14141b;
   border-color: rgba(24, 26, 28, 0.45);
   box-shadow: 0px 2px 25px 0 rgba(34, 36, 38, 0.05) inset;
 }
@@ -19882,7 +19882,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps .link.step:hover,
 .ui.steps a.step:hover::after,
 .ui.steps a.step:hover {
-  background: #34393D;
+  background: #14141b;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -26476,7 +26476,7 @@ Floated Menu / Item
 .ui.table tfoot th {
   cursor: auto;
   border-top: 1px solid rgba(24, 26, 28, 0.45);
-  background: #34393D;
+  background: #14141b;
   text-align: inherit;
   color: #9aa5ce;
   padding: 0.78571429em 0.78571429em;
@@ -35396,7 +35396,7 @@ a.ui.nag {
 }
 
 .ui.inverted.progress .bar > .progress {
-  color: #34393D;
+  color: #14141b;
 }
 
 .ui.inverted.progress > .label {
@@ -36153,7 +36153,7 @@ a.ui.nag {
 
 .ui.search > .results .result:hover,
 .ui.category.search > .results .category .result:hover {
-  background: #34393D;
+  background: #14141b;
 }
 
 .ui.search .action:hover {

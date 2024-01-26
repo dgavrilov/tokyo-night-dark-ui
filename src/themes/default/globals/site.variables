@@ -251,7 +251,7 @@
 
 /*---   Neutrals  ---*/
 @fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
+@offWhite         : @pageBackground;
 @darkWhite        : #4B5257;
 @midWhite         : #666E74;
 @white            : #2E3235;
