@@ -1,22 +1,18 @@
 /*******************************
      User Global Variables
 *******************************/
-@fontPath  : 'inkdrop://default-light-ui/styles/themes/default/assets/fonts';
+@fontPath  : 'inkdrop://default-dark-ui/styles/themes/default/assets/fonts';
 @headerFont        : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 @pageFont          : -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #7aa2f7;
-@primaryColorFocus: #414868;
-@linkHoverColor: @primaryColor;
-
-
 /*-------------------
       Side Bar
 --------------------*/
 @sidebarBackground     : @pageBackground;
-@sidebarMenuItemActiveBackground: rgba(0, 0, 0, 0.2);
+@sidebarMenuItemActiveBackground: hsl(var(--hsl-slate-500) / 40%);
+@sidebarMenuItemInactiveBackground: rgba(0, 0, 0, 0.2);
 @sidebarMenuSectionColor: @textColor;
 @sidebarMenuSectionSeparatorColor: rgba(255,255,255,0.1);
 @sidebarMenuItemColor  : @textColor;
@@ -47,15 +43,21 @@
 @noteListViewItemSeparatorBorder: 1px solid #414868;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @primaryColor;
-@noteListViewItemActiveBackground: #202330;
+@noteListViewItemInactiveBackground: #6987AF30;
+@noteListViewItemActiveBackground: #6987AF60;
 @noteListViewItemActiveColor: #c0caf5;
 @noteListViewItemActiveDateColor: #7dcfff;
 @noteListViewItemActiveTagColor: @textColor;
 @noteListViewItemFocusInnerShadow: none;
 @noteSearchBarBackground: @noteListBarBackground;
 @noteSearchBarBorderBottom: 1px solid #414868;
-@noteSearchBarInputBorder: 1px solid #414868;
+@noteSearchBarInputBorder: 1px solid transparent;
 @noteSearchBarInputBackground: @inputBackground;
+
+/*-------------------
+      Editor
+--------------------*/
+@editorBackground: @pageBackground;
 
 /*-------------------
       Header Note Menu
@@ -78,14 +80,15 @@
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: #cfc9c2;
-@taskIconOnHold: #ff9e64;
-@taskIconCompleted: #9ece6a;
-@taskIconDropped: #f7768e;
+@taskIconActive: hsl(var(--hsl-slate-400));
+@taskIconOnHold: hsl(var(--hsl-amber-500));
+@taskIconCompleted: hsl(var(--hsl-emerald-500));
+@taskIconDropped: hsl(var(--hsl-rose-400));
 
 /*-------------------
   Task Progress View
 --------------------*/
-@taskProgressViewBackgroundColor: rgba(0, 0, 0, 0.3);
-@taskProgressViewForegroundColor: rgba(255, 255, 255, 0.6);
-@taskProgressViewCompletedColor: rgb(50, 205, 50);
+@taskProgressViewBorderColor: hsl(var(--hsl-gray-50) / 10%);
+@taskProgressViewBackgroundColor: hsl(var(--hsl-gray-950) / 30%);
+@taskProgressViewForegroundColor: hsl(var(--hsl-gray-50) / 60%);
+@taskProgressViewCompletedColor: hsl(var(--hsl-green-500));

@@ -38,10 +38,7 @@
 @borderBoxShadowColor: transparent;
 @borderBoxShadowWidth: 1px;
 @borderBoxShadow: 0px 0px 0px @borderBoxShadowWidth @borderBoxShadowColor inset;
-@boxShadow:
-  @borderBoxShadow,
-  @shadowBoxShadow
-;
+@boxShadow: @subtleShadow;
 
 /* Icon */
 @iconHeight: @relativeTiny;
@@ -62,7 +59,9 @@
   background-color @defaultDuration @defaultEasing,
   color @defaultDuration @defaultEasing,
   box-shadow @defaultDuration @defaultEasing,
-  background @defaultDuration @defaultEasing
+  background @defaultDuration @defaultEasing,
+  outline-offset @defaultDuration @defaultEasing,
+  outline-color @defaultDuration @defaultEasing
 ;
 /*
 @willChange: box-shadow, transform, opacity, color, background;
@@ -102,7 +101,7 @@
 @disabledBoxShadow: none;
 
 /* Pressed Down */
-@downBackgroundColor: lighten(@backgroundColor, 1);
+@downBackgroundColor: @backgroundColor;
 @downBackgroundImage: '';
 @downPressedShadow: none;
 @downBoxShadow:
@@ -256,7 +255,7 @@
 
 /* Colors */
 @coloredBackgroundImage: none;
-@coloredBoxShadow: @shadowBoxShadow;
+@coloredBoxShadow: @boxShadow;
 
 /* Colored */
 @brownTextColor: @invertedTextColor;

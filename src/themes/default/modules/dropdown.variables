@@ -8,7 +8,9 @@
 
 @transition:
   box-shadow @defaultDuration @defaultEasing,
-  width @defaultDuration @defaultEasing
+  width @defaultDuration @defaultEasing,
+  outline-offset @defaultDuration @defaultEasing,
+  outline-color @defaultDuration @defaultEasing
 ;
 @borderRadius: @defaultBorderRadius;
 
@@ -23,7 +25,10 @@
 @dropdownIconMargin: 0em 0em 0em 1em;
 
 /* Current Text */
-@textTransition: none;
+@textTransition:
+  outline-offset 100ms @defaultEasing,
+  outline-color 100ms @defaultEasing
+;
 
 /* Menu */
 @menuBackground: #14141b;

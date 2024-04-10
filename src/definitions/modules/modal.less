@@ -28,7 +28,6 @@
   z-index: @zIndex;
   text-align: left;
 
-  background: @background;
   border: @border;
   box-shadow: @boxShadow;
   transform-origin: @transformOrigin;
@@ -170,6 +169,11 @@
 }
 .ui.modal .actions > .button {
   margin-left: @buttonDistance;
+  min-width: 10em;
+
+  &:first-child {
+    margin-left: 0.25em;
+  }
 }
 
 /*-------------------

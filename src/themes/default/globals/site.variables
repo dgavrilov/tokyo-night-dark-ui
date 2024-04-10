@@ -42,8 +42,8 @@
 /* See Power-user section below
    for explanation of @px variables
 */
-@relativeBorderRadius: @relative4px;
-@absoluteBorderRadius: @4px;
+@relativeBorderRadius: @relative5px;
+@absoluteBorderRadius: @5px;
 
 @defaultBorderRadius: @absoluteBorderRadius;
 
@@ -51,7 +51,7 @@
     Brand Colors
 --------------------*/
 
-@primaryColor        : @blue;
+@primaryColor        : #7aa2f7;
 @secondaryColor      : @black;
 
 @lightPrimaryColor   : @lightBlue;
@@ -97,6 +97,17 @@
 
 /* Used on dropdowns, other larger blocks */
 @focusedFormMutedBorderColor: #c0caf5;
+
+@unfocusedOutlineColor      : transparent;
+@unfocusedOutlineOffset     : 0.4rem;
+@focusedOutlineStyle        : solid;
+@focusedOutlineWidth        : @2px;
+@focusedOutlineColor        : color-mix(
+  in srgb,
+  @focusedFormMutedBorderColor,
+  transparent 50%
+);
+@focusedOutlineOffset       : 0rem;
 
 /*-------------------
         Sizes
@@ -172,10 +183,10 @@
   Highlighted Text
 --------------------*/
 
-@highlightBackground      : #FFFFFF - #CCE2FF;
+@highlightBackground      : @primaryColor;
 @highlightColor           : @textColor;
 
-@inputHighlightBackground : #FFFFFF - rgba(100, 100, 100, 0.4);
+@inputHighlightBackground : @blue;
 @inputHighlightColor      : @textColor;
 
 
@@ -336,6 +347,7 @@
   0px 2px 4px 0px rgba(34, 36, 38, 0.12),
   0px 2px 10px 0px rgba(34, 36, 38, 0.15)
 ;
+@raisedShadow: 0px 2px 3px 0px @borderColor;
 
 /*******************************
            Power-User
@@ -484,9 +496,9 @@
 @strongSelectedBorderColor : rgba(24, 26, 28, 0.5);
 @disabledBorderColor       : rgba(24, 26, 28, 0.5);
 
-@solidInternalBorderColor  : #333333;
-@solidBorderColor          : #1B1C1E;
-@solidSelectedBorderColor  : #222222;
+@solidInternalBorderColor  : #222222;
+@solidBorderColor          : #3B3C3E;
+@solidSelectedBorderColor  : #4D5B66;
 
 @whiteBorderColor              : rgba(0, 0, 0, 0.1);
 @selectedWhiteBorderColor      : rgba(0, 0, 0, 0.8);
