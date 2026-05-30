@@ -6,37 +6,37 @@
     --primary-button-text-color: #ffffff;
 
     --preferences-sidebar-background: #13131a;
-    --preferences-view-background: #1A1B25;
-    --preferences-sidebar-item-active-background: #181922;
+    --preferences-view-background: #1a1b26;
+    --preferences-sidebar-item-active-background: #202330;
 
     --input-background: #14141b;
 
-    --header-text-color: #6081b8;
-    --muted-text-color: #70728d;
+    --header-text-color: #6183bb;
+    --muted-text-color: #787c99;
 
-    --sidebar-background: #16161E;
-    --note-list-bar-background: #1A1B25;
+    --sidebar-background: #16161e;
+    --note-list-bar-background: #1a1b26;
     --segment-background: #13131a;
     --secondary-segment-background: #13131a;
-    --input-color: #AAB0D4;
+    --input-color: #a9b1d6;
 
-    --table-background: #1A1B25;
-    --primary-color: #6081b8;
-    --link-color: #5A77AA;
-    --link-hover-color: #6ABBE6;
-    --sidebar-menu-section-color: #70728d;
+    --table-background: #1a1b26;
+    --primary-color: #3d59a1;
+    --link-color: #6183bb;
+    --link-hover-color: #7dcfff;
+    --sidebar-menu-section-color: #787c99;
     --sidebar-menu-active-item-color: #c0caf5;
-    --sidebar-menu-item-inactive-background: #1A1B25;
-    --sidebar-menu-item-active-background: #1A1B25;
-    --tabular-menu-active-background: #1A1B25;
-    --grouped-segment-hover-background: #1A1B25;
-    --sidebar-sync-status-view-background: #16161E;
+    --sidebar-menu-item-inactive-background: transparent;
+    --sidebar-menu-item-active-background: #202330;
+    --tabular-menu-active-background: #1a1b26;
+    --grouped-segment-hover-background: #1c1d29;
+    --sidebar-sync-status-view-background: #16161e;
 
-    --editor-background: #16161E;
+    --editor-background: #1a1b26;
     --metadata-section-background-color: #1a1b26;
-    --text-color: #AAB0D4;
+    --text-color: #a9b1d6;
 
-    --note-list-view-item-selected-background: #16161E;
-    --note-list-view-item-separator-border: #6081b8;
-    --dropdown-default-text-color: #70728d;
+    --note-list-view-item-selected-background: #202330;
+    --note-list-view-item-separator-border: #3d59a1;
+    --dropdown-default-text-color: #787c99;
 }

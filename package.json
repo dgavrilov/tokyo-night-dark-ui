@@ -1,6 +1,6 @@
 {
   "name": "tokyo-night-dark-ui",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "theme": "ui",
   "themeAppearance": "dark",
   "description": "Tokyo Night Dark UI theme",
@@ -19,6 +19,6 @@
     "@inkdropapp/theme-dev-helpers": "^0.3.7"
   },
   "engines": {
-    "inkdrop": "^6.x"
+    "inkdrop": ">=5.9.0 <7"
   }
 }
