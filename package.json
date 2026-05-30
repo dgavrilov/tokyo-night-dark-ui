@@ -19,6 +19,6 @@
     "@inkdropapp/theme-dev-helpers": "^0.3.7"
   },
   "engines": {
-    "inkdrop": "^5.9.0"
+    "inkdrop": "^6.x"
   }
 }
